@@ -1,0 +1,67 @@
+/*Imports*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Montserrat:wght@300;400&display=swap");
+/*font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif; */
+
+/*Universal*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Layout*/
+
+main {
+  height: 100vh;
+  background-image: url(https://i.pinimg.com/564x/7c/39/76/7c39762f38650923ef6bf47f2e1d527f.jpg);
+  background-position: center;
+}
+
+article {
+  color: white;
+  text-shadow: 0 0 2px rgb(0 0 0/ 0.8);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Card*/
+
+.card {
+  flex-direction: column;
+  width: 16rem;
+  background-color: rgba(9, 8, 8, 0.5);
+}
+
+.card h1 {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 2rem 0 0;
+}
+
+.btns {
+  flex-direction: column;
+  gap: 0.625rem;
+  margin: 1rem 0 1rem;
+}
+
+button {
+  background-color: rgb(79, 142, 154);
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+.card p {
+  margin-bottom: 1rem;
+}
+
+/*Utilities*/
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
